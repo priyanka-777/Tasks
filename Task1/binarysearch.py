@@ -1,6 +1,6 @@
 def binarysearch(arr,low,high,x):
 
-	if high>=low:
+	if(high>=low):
 		mid=(high+low)//2
 		if arr[mid]==x:
 			return mid
@@ -18,7 +18,7 @@ for i in range(0,n):
 key=int(input("enter a value to search:"))
 result=binarysearch(arr,0,n-1,key)
 if result!=-1:
-	print("element is present at %d"%result)
+	print("element is present at",result)
 else:
 	print("element is  not present in array")
 		
