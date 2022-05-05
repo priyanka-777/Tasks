@@ -15,6 +15,10 @@ n=int(input("enter num of values in list:"))
 for i in range(0,n):
 	ele=int(input("enter elements:"))
 	arr.append(ele)
+arr.sort()
+print("given elements in sorted order:")
+for i in range(0,n):
+	print(i)
 key=int(input("enter a value to search:"))
 result=binarysearch(arr,0,n-1,key)
 if result!=-1:
