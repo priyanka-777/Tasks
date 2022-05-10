@@ -4,6 +4,7 @@ def duplicates(arr,n):
 		for j in range(i+1,n):
 			if(arr[i]==arr[j]):
 				count=count+1
+				break
 	return count
 arr=[]
 n=int(input("enter num of values in list:"))

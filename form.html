@@ -14,7 +14,7 @@
                First Name:
             </th>
             <td>
-                <input type="text" placeholder="First Name" id="fname" name="">
+                <input type="text" placeholder="First Name" id="fname" name="" required>
             </td> 
         </tr>
         </thead>
@@ -24,7 +24,7 @@
                Last Name:
             </th>
             <td>
-                <input type="text" placeholder="Last Name" name=""id="lname">
+                <input type="text" placeholder="Last Name" name=""id="lname" required>
             </td> 
         </tr>
         <tr>
@@ -32,16 +32,16 @@
                 Aadhar:
             </th>
             <td>
-                <input type="text" placeholder="Aadhar" name="" id="aadhar">
+                <input type="text" placeholder="Aadhar" name="" id="aadhar" required>
             </td> 
         </tr>
         <tr>
             <th>
-                Gender:
+                <label for="gender">Gender</label>
             </th>
             <td>
-                <input type="radio" name="Gender">Male 
-                <input type="radio" name="Gender">Female         
+                <input type="radio" name="Gender" >Male 
+                <input type="radio" name="Gender" >Female         
             </td> 
         </tr>
         <tr>
@@ -49,7 +49,7 @@
                 Email:
             </th>
             <td>
-                <input type="email" placeholder="Email" name="e" name="email" id="mail" required>
+                <input type="email" placeholder="Email" name="email" id="mail" required>
             </td> 
         </tr>
         <tr>
@@ -63,7 +63,7 @@
                     <option>+22</option>
                     <option>+11</option>
                 </select>
-                <input type="number" placeholder="Phone no" name="" id="phone">
+                <input type="tel" placeholder="Phone no" name="" id="phone" />
             </td> 
         </tr>
         <tr>

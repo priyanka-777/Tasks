@@ -15,11 +15,10 @@
         list3[x] = document.getElementById("aadhar").value;
         list4[x] = document.getElementById("mail").value;
         list5[x] = document.getElementById("phone").value;
-	  if(!list1[x] || !list2[x] || !list3[x] || !list4[x] || !list5[x]){
-        alert("please fill all fields");
-        return;
+	if(!list1[x] || !list2[x] || !list3[x] || !list4[x] || !list5[x]){
+          alert("please fill all fields");
+          return;
     }
-
         let cell1 = NewRow.insertCell(0);
         let cell2 = NewRow.insertCell(1);
         let cell3 = NewRow.insertCell(2);
