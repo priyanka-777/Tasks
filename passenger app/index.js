@@ -6,7 +6,7 @@ function increment() {
     countEl.textContent = count
 }
 function incrementby5() {
-    count += 25
+    count += 5
     countEl.textContent = count
 }
 function decrement(){
