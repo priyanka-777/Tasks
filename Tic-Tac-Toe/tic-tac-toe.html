@@ -6,7 +6,7 @@
        
         <link rel="stylesheet"
             type="text/css" href="tic.css">
-       
+       <title>TIC-TAC-TOE</title>
         <script src="tic.js"></script>
     </head>
     <body>
@@ -15,21 +15,21 @@
             <P id="about"><i>Game Starts by just clicking on boxes</i><br><br>First player starts as <b>PLAYER X</b><br><br>Second player starts as <b>PLAYER O</b><br></P>
             <br>
             <h2>Enter player 1:</h2>
-            <input type="text" id="name1" placeholder="Name" >
+            <input type="text" id="name1" placeholder="Name" required="" >
             <h2>Enter player 2:</h2>
-            <input type="text" id="name2" placeholder="Name">
+            <input type="text" id="name2" placeholder="Name" required="">
             <br><br>
-             <input type="text" id="b1" onclick="fun_1();fun();" readonly>  
-             <input type="text" id="b2" onclick="fun_2();fun();" readonly>    
-             <input type="text" id="b3" onclick="fun_3();fun();" readonly> 
+             <input type="text" id="b1" onclick="fun_1(this.id)" readonly>  
+             <input type="text" id="b2" onclick="fun_1(this.id)" readonly>    
+             <input type="text" id="b3" onclick="fun_1(this.id)" readonly> 
              <br><br>   
-             <input type="text" id="b4" onclick="fun_4();fun();" readonly>    
-             <input type="text" id="b5" onclick="fun_5();fun();" readonly>    
-             <input type="text" id="b6" onclick="fun_6();fun();" readonly>  
+             <input type="text" id="b4" onclick="fun_1(this.id)" readonly>    
+             <input type="text" id="b5" onclick="fun_1(this.id)" readonly>    
+             <input type="text" id="b6" onclick="fun_1(this.id)" readonly>  
              <br><br>  
-             <input type="text" id="b7" onclick="fun_7();fun();" readonly>    
-             <input type="text" id="b8" onclick="fun_8();fun();" readonly>    
-             <input type="text" id="b9" onclick="fun_9();fun();" readonly>    
+             <input type="text" id="b7" onclick="fun_1(this.id)" readonly>    
+             <input type="text" id="b8" onclick="fun_1(this.id)" readonly>    
+             <input type="text" id="b9" onclick="fun_1(this.id)" readonly>    
             <br><br><br>
             <button id="btn" onclick="my_func()">
                 RESTART
